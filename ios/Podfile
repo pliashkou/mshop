@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 target 'mshop' do
+  pod 'AppCenter/Push', '~> 2.0.1'
   pod 'AppCenter/Crashes', '~> 2.0.1'
   pod 'AppCenter/Analytics', '~> 2.0.1'
   pod 'AppCenterReactNativeShared', '~> 2.0.0'
